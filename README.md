@@ -1,29 +1,41 @@
-# Rockbuster Stealth Data Analysis Project
-Rockbuster Stealth LLC is a movie rental company that used to have stores around the
-world. Facing stiff competition from streaming services such as Netflix and Amazon Prime,
-the Rockbuster Stealth management team is planning to use its existing movie licenses to
-launch an online video rental service in order to stay competitive.
-The Rockbuster Stealth Management Board has asked a series of business questions and
-they expect data-driven answers that they can use for their 2020 company strategy. Here are
-the main questions they’d like to answer
-# Key Questions
-* Which movies contributed the most/least to revenue gain?
-* What was the average rental duration for all videos?
-* Which countries are Rockbuster customers based in?
-* Where are customers with a high lifetime value based?
-* Do sales figures vary between geographic regions?
-# Tools used
-* pgAdmin4: Used for managing PostgreSQL database
-* PostgreSQL: An open-source relational database used to store, organize, and analyze Rockbuster's data.
-* Tableau Public: Platform for creating and sharing interactive data visualizations.
-# Data Overview
-The Rockbuster Stealth dataset contains information about the company’s film inventory, customers, rental activity, and payment history. Key tables include:
-
-* Film Data: Details on movie titles, genres, languages, and rental durations.
-* Inventory Data: Information about which films are available at each store.
-* Customer Data: Customer profiles, locations, and account details.
-* Rental Data: Records of rental transactions, including rental dates and return dates.
-* Payment Data: Payment amounts and dates associated with each rental.
-* Staff & Store Data: Information on store locations and employees.
+<img width="200" height="200" alt="Unknown-6" src="https://github.com/user-attachments/assets/203dd2fa-e64b-4637-9fa4-a9732343e9ab" />
 
 
+# Rockbuster Stealth Data Analysis ( SQL + Tableau)
+### Project Overview
+This project analyzes customer and revneue data for Rockbuster Stealth, a movie rental comapny transitioning to an online stremaing model. The goal was to identofy high-value markets, customer behavior patterns, and business opportunities using SQL and data visualization.
+
+# Objectives
+* Identify top revenue- genertaing countries and regions
+* Analyze customer distribution and behavior
+* Support busines strategy for global expansion
+  
+# Tools & Technologies
+* SQL (PostgreSQL)
+* Tableau
+* Excel
+
+# Key Analysis
+* Performed SQL joins across multiple tables to combine customer, payment, and rental data
+* Used aggregations to identify top- performing markets (India, China, United States)
+* Analyzed customer activity and revenue distribution across regions
+
+# Results & Insights 
+* Identified key global markets driving the majority of revenue
+* Highlighted customer concentration in specific regions to support targeted expansion
+* Provided data-driven recommendations for market prioritization
+
+# Business Recommendations
+* Priortize investment and marketing efforts in top-performing countires to maximize ROI
+* Expand digital offerings in high-customer density regions to increase engagment
+* Use customer segmentation insights to talior content and pricign strategies 
+
+# Visualizations
+
+<img width="630" height="537" alt="Screenshot 2026-03-17 at 3 29 10 PM" src="https://github.com/user-attachments/assets/54b8e4ea-8c03-4b8b-89d5-bf0d9bbce22b" />
+
+<img width="348" height="77" alt="Screenshot 2026-03-17 at 3 30 24 PM" src="https://github.com/user-attachments/assets/b4e2625e-5b41-42c2-b097-fe5bc6288337" />
+
+<img width="925" height="333" alt="Screenshot 2026-03-17 at 3 30 13 PM" src="https://github.com/user-attachments/assets/f512e263-9d57-46b3-b47e-c345c4710c81" />
+
+<img width="626" height="385" alt="Screenshot 2026-03-17 at 3 32 02 PM" src="https://github.com/user-attachments/assets/00b38b7b-8731-4d3b-a524-108f16d6cc1d" />
